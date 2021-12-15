@@ -30,8 +30,5 @@ public class Queue {
 
     public void enqueue(Object e) {
         this.queue = queue.addLast(e);
-//        for (Object elem: queue.toArray()) {
-//            System.out.println(elem);
-//        }
     }
 }

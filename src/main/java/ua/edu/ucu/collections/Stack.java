@@ -20,7 +20,7 @@ public class Stack {
 
     public Object peek() {
         Node head = stack.getHead();
-        return head.equals(null) ? head : head.getValue();
+        return head == null ? null : head.getValue();
     }
 
     public Object pop() {
