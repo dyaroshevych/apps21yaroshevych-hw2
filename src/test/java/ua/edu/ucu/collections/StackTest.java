@@ -28,5 +28,6 @@ public class StackTest {
     @Test
     public void peek() {
         assertEquals(5, stack.peek());
+        assertEquals(5, stack.size());
     }
 }
